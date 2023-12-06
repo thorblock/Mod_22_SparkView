@@ -8,6 +8,6 @@ The focus of this project is to leverage SparkSQL functionalities in Google Cola
 
 - **Creating Temporary Views:** Generating temporary views to facilitate SQL-based analysis.
 - **Brief Analysis:** Brief look at specific home sales queries, highly reminiscent of sqlite3 draws
-- **Partitioning Data:** Optimizing data organization through partitioning.
+- **Partitioning Data:** Optimizing data organization through partitioning, parquet was not that much faster, similar result to practice_parquet.
 - **Caching and Uncaching Temporary Tables:** Enhancing performance by caching tables in memory and subsequently uncaching to free up resources.
 - **Verification Process:** Confirming the successful uncaching of the tables for efficient memory management.
